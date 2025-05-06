@@ -1,10 +1,7 @@
 import React, {useRef} from 'react'
 import "./Testimonial.css"
-import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { testimonial } from '../../data';
-import { FaStar } from 'react-icons/fa';
 import gsap from "gsap"
 import { useGSAP } from '@gsap/react'
 import ScrollTrigger from "gsap/dist/ScrollTrigger"
