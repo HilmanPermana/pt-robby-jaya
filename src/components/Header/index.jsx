@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import "./Header.css"
 import { master_produk } from '../../assets'
 import { Link } from 'react-scroll'
-import Achievement from '../Achievement'
 import gsap from "gsap"
 import { useGSAP } from '@gsap/react'
 
