@@ -1,0 +1,54 @@
+.service__card{
+    background: var(--color-ui-secondary);
+    padding: 20px;
+    border-radius: var(--radius-3);
+    border: solid 2px transparent;
+    transition: var(--transition);
+    box-shadow: var(--shadow-1);
+}
+.service__card:hover{
+    border-color: var(--color-primary);
+    background: var(--color-ui-variant);
+}
+.service__card .image__container{
+    font-size: 45px;
+    width: 300px;
+    height: 150px;
+}
+
+.service__card .image__container img{
+    border-radius: var(--radius-3);
+}
+.service__card:hover .image__container{
+    transform: scale(1.08);
+    color: var(--color-primary);
+}
+
+.service__card .name{
+    font-size: 16px;
+    margin: 100px 0 10px 0;
+    text-align: center;
+}
+
+
+/* Responsive Code */
+@media (max-width:1040px){
+    #services .service__card {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #services .service__card .image__container img{
+        width: 290px;
+        transform: scale(1);
+    }
+}
+@media (max-width:700px){
+    #services .services__container{
+        grid-template-columns: 100%;
+    }
+
+    #services .service__card .image__container img{
+        width: 290px;
+        transform: scale(1);
+    }
+}
