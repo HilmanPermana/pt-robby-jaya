@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState, useEffect} from 'react'
 import "./Project.css"
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
@@ -51,7 +51,22 @@ const Project = () => {
             {x:100,opacity:0}, 
             {opacity:1,stagger:.5,x:0}
         )
-    }, {scope:container})
+    }, {scope:container});
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const getImageSrc = (project) => {
+        if (windowWidth <= 600) return project.image_resp;
+        if (windowWidth <= 700) return project.image_resp;
+        if (windowWidth <= 1040) return project.image_resp;
+        return project.image;
+    };
     return (
         <section id='project' ref={container}>
             <div className='project__top'>
@@ -65,7 +80,7 @@ const Project = () => {
                     projects.map((project,index)=>(
                         <React.Fragment key={index}>
                             <div className='image__container'>
-                                <img src={project.image} alt={project.title}/>
+                                <img src={getImageSrc(project)} alt={project.title}/>
                             </div>
                             <div className='box'>
                                 <h1 className='name'>{project.title}</h1>

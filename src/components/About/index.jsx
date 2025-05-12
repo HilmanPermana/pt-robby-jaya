@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import "./About.css"
 import { cover_perusahaan,pabrik_1,packaging_1,storage_2} from '../../assets'
 import { FaCheck } from 'react-icons/fa'
-import { Link } from 'react-scroll'
 import gsap from "gsap"
 import { useGSAP } from '@gsap/react'
 import ScrollTrigger from "gsap/dist/ScrollTrigger"
@@ -73,19 +72,19 @@ const About = () => {
                     </div>
                     <p className='text__muted description'>
                         Melihat pertumbuhan ekonomi kota Serang dan sekitarnya, 
-                        serta posisi Banten yang berada diatas pegunungan tentu nya memiliki 
+                        serta posisi Banten yang berada di atas pegunungan tentunya memiliki 
                         Sumber Mata Air yang bersih.
                         <br></br>
                         <br></br>Maka pada tahun 2022 kami sepakat untuk mendirikan perusahaan yang bergerak  dalam 
                         bidang produksi  Air Minum Dalam Kemasan  
                         ( AMDK ) yang berkualitas dari sumber mata air Alami pegunungan, 
-                        sehingga dapat memberikan dampak ekonomi sekitar wilayah Cijengkol, Cisalam Serang Banten
+                        sehingga dapat memberikan dampak ekonomi sekitar wilayah Cijengkol, Cisalam Serang Banten.
                         <br></br>
                         <br></br>PT. Robby Jaya AMDK didirikan atas dasar visi dan misi untuk menyediakan air minum 
                         yang berkualitas, yang berasal dari sumber mata air pegunungan yang alami dan murni di 
                         wilayah Banten. Melihat segala kebutuhan air bersih dan sehat yang terus meningkat, 
                         kami terdorong untuk turut berkontribusi, tidak hanya dalam hal Kesehatan Masyarakat, 
-                        tetapi juga dalam pertumbuhan ekonomi lokal
+                        tetapi juga dalam pertumbuhan ekonomi lokal.
 
                     </p>
                     <div className='group'>

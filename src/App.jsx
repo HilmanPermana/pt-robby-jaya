@@ -7,6 +7,8 @@ import Project from "./components/Project"
 import Testimonial from "./components/Testimonial"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import WhatsappButton from "./components/WhatsappButton"
+import Blog from "./components/Blog"
 
 function App() {
 
@@ -19,8 +21,10 @@ function App() {
     <Project/>
     <Teams/>
     <Testimonial/>
+    <Blog/>
     <Contact/>
     <Footer/>
+    <WhatsappButton/>
     </>
   )
 }

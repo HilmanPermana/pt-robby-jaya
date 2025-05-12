@@ -32,13 +32,17 @@ const Contact = () => {
     }, {scope:container})
 
     const [result, setResult] = React.useState("");
+    const email = contacts[0]
+    const wa = contacts[1]
+    const admin = contacts[2]
+    const operational = contacts[3]
 
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "7fd00a06-0fc7-4616-9832-b364545ca21b");
+        formData.append("access_key", "4494c1f6-4522-4d60-8015-3c33a87735d7");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -89,20 +93,43 @@ const Contact = () => {
                     </div>
                 </form>
                 <div className="contact__options">
-                    {
-                        contacts.map((contact,index)=>(
-                            <div className='option' key={index}>
-                                <div className='icon__container'>
-                                    {contact.icon}
-                                </div>
-                                <h3 className='name'>{contact.name}</h3>
-                                <h4 className='text__muted'>{contact.value}</h4>
-                                <div>
-                                    <a href={"https://wa.link/7ldt1h"} className='btn btn__primary'>Hubungi Kami</a>
-                                </div>
-                            </div>
-                        ))
-                    }
+                    <div className='option'>
+                        <div className='icon__container'>
+                            {email.icon}
+                        </div>
+                        <h3 className='name'>{email.name}</h3>
+                        <h4 className='text__muted'>{email.value}</h4>
+                        <div>
+                            <a href={"mailto:ptrobbyjayaamdk@gmail.com"} className='btn btn__primary'>Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div className='option'>
+                        <div className='icon__container'>
+                            {wa.icon}
+                        </div>
+                        <h3 className='name'>{wa.name}</h3>
+                        <h4 className='text__muted'>{wa.value}</h4>
+                        <div>
+                            <a href={"https://wa.link/mzcwza"} className='btn btn__primary'>Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div className='option'>
+                        <div className='icon__container'>
+                            {admin.icon}
+                        </div>
+                        <h3 className='name'>{admin.name}</h3>
+                        <h4 className='text__muted'>{admin.value}</h4>
+                        <div>
+                            <a href={"https://wa.link/7ldt1h"} className='btn btn__primary'>Hubungi Kami</a>
+                        </div>
+                    </div>
+                    <div className='option'>
+                        <div className='icon__container_op'>
+                            {operational.icon}
+                        </div>
+                        <h3 className='name'>{operational.name}</h3>
+                        <h4 className='text__muted'>{operational.value}</h4>
+                    </div>
                 </div>
             </div>
         </section>

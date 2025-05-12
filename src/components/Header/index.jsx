@@ -4,6 +4,7 @@ import { master_produk } from '../../assets'
 import { Link } from 'react-scroll'
 import gsap from "gsap"
 import { useGSAP } from '@gsap/react'
+import Achievement from '../Achievement'
 
 const Header = () => {
   const container = useRef(null);
@@ -56,6 +57,7 @@ const Header = () => {
               </div>
             </div>
           </div>
+            <Achievement/>
         </div>
     </header>
   )
