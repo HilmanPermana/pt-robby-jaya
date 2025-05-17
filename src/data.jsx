@@ -6,7 +6,7 @@ import {tim_kami, tim_kami2, tim_kami3, produk_1,produk_2,
         water_reservoir, water_filterisasi, sni_bywi_galon, sni_cissalam_cup, sni_galon_cisalam,
         cup_filling, bottle_filling, galon_filling, 
         packaging, produk_1_resp, produk_2_resp, sppt_sni,
-        produk_3_resp, produk_4_resp} from "./assets";
+        produk_3_resp, produk_4_resp, p_campur} from "./assets";
 
 export const navTabs = [
     {name:"Beranda",id:'header'},
@@ -83,6 +83,11 @@ export const projects = [
     title:"Cisalam Air Mineral Botol 600 ML",
     image:produk_4,
     image_resp:produk_4_resp,
+  },
+  {
+    title:"Cisalam Air Mineral Botol 300 ML, 600 ML & 1,5 L",
+    image:p_campur,
+    image_resp:p_campur,
   },
 ];
 
