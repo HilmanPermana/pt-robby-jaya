@@ -10,10 +10,12 @@ export {default as produk_1} from "./p_cisalam_cup.png";
 export {default as produk_2} from "./p_galon.png";
 export {default as produk_3} from "./p_bywi_cup.png";
 export {default as produk_4} from "./p_cisalam_botol.png";
+export {default as produk_5} from "./Banten_Water_bg.png";
 export {default as produk_1_resp} from "./p_cisalam_cup_resp.png";
 export {default as produk_2_resp} from "./p_galon_resp.png";
 export {default as produk_3_resp} from "./p_bywi_cup_resp.png";
 export {default as produk_4_resp} from "./p_cisalam_botol_resp.png";
+export {default as produk_5_resp} from "./banten_water.jpg";    
 export {default as logo_perusahaan} from "./logo_perusahaan.png"
 export {default as water_reservoir} from "./water_reservoir.png"
 export {default as water_filterisasi} from "./water_filterisasi.png"

@@ -1,12 +1,12 @@
 import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BiSolidTimeFive } from "react-icons/bi";
-import {tim_kami, tim_kami2, tim_kami3, produk_1,produk_2,
+import {tim_kami, tim_kami2, tim_kami3, produk_1,produk_2, produk_5,
         produk_3, produk_4, halal, sni_botol_cisalam, sni_bywi_botol,
         water_reservoir, water_filterisasi, sni_bywi_galon, sni_cissalam_cup, sni_galon_cisalam,
         cup_filling, bottle_filling, galon_filling, 
         packaging, produk_1_resp, produk_2_resp, sppt_sni,
-        produk_3_resp, produk_4_resp, p_campur} from "./assets";
+        produk_3_resp, produk_4_resp, produk_5_resp, p_campur} from "./assets";
 
 export const navTabs = [
     {name:"Beranda",id:'header'},
@@ -83,6 +83,11 @@ export const projects = [
     title:"Cisalam Air Mineral Botol 600 ML",
     image:produk_4,
     image_resp:produk_4_resp,
+  },
+  {
+    title:"Banten Water Botol 300 ML",
+    image:produk_5,
+    image_resp:produk_5_resp,
   },
   {
     title:"Cisalam Air Mineral Botol 300 ML, 600 ML & 1,5 L",
