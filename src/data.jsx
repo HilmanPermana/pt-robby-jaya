@@ -104,12 +104,12 @@ export const contacts = [
   },
   {
     name:"Admin 1",
-    value:"+62-8229-9931-756", //mas Dian
+    value:"0877-7034-4297", //Syafi'i
     icon:<IoCallOutline/>,
   },
   {
     name:"Admin 2",
-    value:"+62-8129-2069-212", //Paak Deni GM
+    value:"0821-1434-1856", //Zahid
     icon:<IoCallOutline/>,
   },
   {
