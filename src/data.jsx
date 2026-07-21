@@ -104,12 +104,12 @@ export const contacts = [
   },
   {
     name:"Admin 1",
-    value:"0877-7034-4297", //Syafi'i
+    value:"0813-3331-6899", // H. SUROTO
     icon:<IoCallOutline/>,
   },
   {
     name:"Admin 2",
-    value:"0821-1434-1856", //Zahid
+    value:"0821-2576-7335", // H. SANGIDUN
     icon:<IoCallOutline/>,
   },
   {

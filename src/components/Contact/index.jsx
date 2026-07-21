@@ -110,7 +110,7 @@ const Contact = () => {
                         <h3 className='name'>{wa.name}</h3>
                         <h4 className='text__muted'>{wa.value}</h4>
                         <div>
-                            <a href={"https://wa.link/mzcwza"} className='btn btn__primary'>Hubungi Kami</a>
+                            <a href={"https://wa.link/rymkfd"} className='btn btn__primary'>Hubungi Kami</a>
                         </div>
                     </div>
                     <div className='option'>
@@ -120,7 +120,7 @@ const Contact = () => {
                         <h3 className='name'>{admin.name}</h3>
                         <h4 className='text__muted'>{admin.value}</h4>
                         <div>
-                            <a href={"https://wa.link/7ldt1h"} className='btn btn__primary'>Hubungi Kami</a>
+                            <a href={"https://wa.link/qxpwom"} className='btn btn__primary'>Hubungi Kami</a>
                         </div>
                     </div>
                     <div className='option'>
