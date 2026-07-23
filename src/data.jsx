@@ -65,7 +65,7 @@ export const teams = [
 
 export const projects = [
   {
-    title:"Cisalam Air Mineral Cup 200 ML",
+    title:"Cisalam Air Mineral Cup 200 ML dan 220 ML",
     image:produk_1,
     image_resp:produk_1_resp,
   },
@@ -75,7 +75,7 @@ export const projects = [
     image_resp:produk_2_resp,
   },
   {
-    title:"Bywi Air Mineral Cup 200 ML",
+    title:"Bywi Air Mineral Cup 200 ML dan 220 ML",
     image:produk_3,
     image_resp:produk_3_resp,
   },
@@ -85,7 +85,7 @@ export const projects = [
     image_resp:produk_4_resp,
   },
   {
-    title:"Banten Water Botol 300 ML",
+    title:"Banten Water Botol 330 ML dan 600 ML",
     image:produk_5,
     image_resp:produk_5_resp,
   },
@@ -103,12 +103,12 @@ export const contacts = [
     icon:<MdOutlineAlternateEmail />,
   },
   {
-    name:"Admin 1",
+    name:"Owner H. Suroto",
     value:"0813-3331-6899", // H. SUROTO
     icon:<IoCallOutline/>,
   },
   {
-    name:"Admin 2",
+    name:"Direktur Utama H. Sangidun",
     value:"0821-2576-7335", // H. SANGIDUN
     icon:<IoCallOutline/>,
   },
